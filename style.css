@@ -27,7 +27,7 @@ header{
     /*margin-top:20px;*/
     border:1px solid transparent;
     border-radius:50%;
-    background-image: url("My photo 2.png");
+    background-image: url("/Images/My photo 2.png");
     background-size: cover;
     
     
@@ -95,7 +95,7 @@ a:hover{
 #main_photo{
     height:550px;
     width:300px;
-    background-image: url("My photo.png");
+    background-image: url("/Images/My photo.png");
     background-size: cover;
     /*margin-top:100px;
     /*margin-left:82%;
@@ -114,6 +114,7 @@ main{
 #section1{
     display: flex;
     justify-content: space-between;
+    
 }
 #main-content{
     height:450px;
@@ -157,6 +158,8 @@ main{
 #About-section{
     display: flex;
     justify-content:space-between;
+    /*background-image: url("Mypic2.jpeg");
+    background-size: cover;*/
     
 
 }
@@ -182,7 +185,7 @@ main{
 #img2{
     height:450px;
     width:40%;
-    background-image: url("web2.png");
+    background-image: url("/Images/web2.png");
     background-size: cover;
     background-color: yellow;
     margin:50px;
@@ -242,122 +245,65 @@ main{
 
 }
 .skill-1{
-    background-image: url("html logo.png");
+    background-image: url("/Images/html-logo2.png");
     background-size: cover;
 }
 .skill-2{
-    background-image: url("css logo.png");
+    background-image: url("/Images/css-logo2.png");
     background-size: cover;
 }
 .skill-3{
-    background-image: url("Js logo.jpg");
+    background-image: url("/Images/js-logo2.png");
     background-size: cover;
 }
 .skill-4{
-    background-image: url("sql-logo2.jpg");
+    background-image: url("/Images/sql-logo2.png");
     background-size: cover;
 }
 .skill-5{
-    background-image: url("c++logo.png");
+    background-image: url("/Images/c++ logo2.png");
     background-size: cover;
 }
 .skill-6{
-    background-image: url("java logo.png");
+    background-image: url("/Images/java-logo4.png");
     background-size: cover;
 }
-.progress_bar{
-    height:15px;
-    width:60%;
-    background-color: rgb(27, 24, 24,0.3);
-    border:1px solid transparent;
-    border-radius: 15px;;
+/*
+#certificate{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
 }
-/*html progress*/
-.f1::after{
-    content:"85%";
-}
-.f1{
-    content:" ";
-    
-    
-    height:15px;
-    width:2px;
-    background-color: rgb(0, 149, 255);
-    border:1px solid transparent;
+.certificate-box{
+    height:200px;
+    width:300px;
+    background-color: aqua;
+    border: none;
     border-radius: 15px;
-    animation:animate_html 2s ease-in 3s 1 forwards;
-    opacity:0;
-    
+    margin: 50px;
     
 }
 
-@keyframes animate_html{
-    from{width:0px;
-        transform:scaleX(0px);
-    }
-    to{width:85%;
-        transform:scaleX(85px);
-        opacity:1;
-    }
-}
-/*css progress*/
-.f2::after{
-    content:"80%";
-}
-.f2{
-    content:" ";
-    
-    
-    height:15px;
-    width:2px;
-    background-color: rgb(0, 149, 255);
-    border:1px solid transparent;
-    border-radius: 15px;
-    animation:animate_css 2s ease-in 3s 1 forwards;
-    opacity:0;
-    
-    
-}
+#Rank{
+    background-image: url("Rank-certificate.jpeg");
+    background-size:cover;
 
-@keyframes animate_css{
-    from{width:0px;
-        transform:scaleX(0px);
-    }
-    to{width:80%;
-        transform:scaleX(80px);
-        opacity:1;
-    }
 }
-/*js progress*/
-.f3::after{
-    content:"70%";
-}
-.f3{
-    content:" ";
-    
-    
-    height:15px;
-    width:2px;
-    background-color: rgb(0, 149, 255);
-    border:1px solid transparent;
-    border-radius: 15px;
-    animation:animate_js 2s ease-in 3s 1 forwards;
-    opacity:0;
-    
-    
-}
+#Cpp{
+    background-image: url("C++ Certificate.jpeg");
+    background-size:cover;
 
-@keyframes animate_js{
-    from{width:0px;
-        transform:scaleX(0px);
-    }
-    to{width:70%;
-        transform:scaleX(70px);
-        opacity:1;
-    }
-}
 
-#project-title{
+}
+#Cretechnova{
+    background-image: url("Cretechnova.jpeg");
+    background-size:cover;
+
+
+}*/
+
+
+.project-title{
     display: flex;
     justify-content: center;
     align-items:center;
@@ -408,12 +354,12 @@ main{
 
 }
 #project-logo1{
-    background-image: url("amazon logo.png");
+    background-image: url("/Images/amazon logo.png");
     background-size: cover;
     
 }
 #project-logo2{
-    background-image: url("My photo.png");
+    background-image: url("/Images/My photo.png");
     background-size: cover;
     
 
